@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\QuestionOneRequest;
 
 class QuestionController extends Controller
