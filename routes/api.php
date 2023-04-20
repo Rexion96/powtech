@@ -6,6 +6,6 @@ use App\Http\Controllers\QuestionController;
 Route::group(['prefix' => 'questions'], function () {
     Route::get('/one',  [QuestionController::class, 'QuestionOne']);
 
-    Route::get('/two-part-one',  [QuestionController::class, 'QuestionTwoEndpointOne']);
-    Route::get('/two-part-two',  [QuestionController::class, 'QuestionTwoEndpointTwo']);
+    Route::get('/two-endpoint-one',  [QuestionController::class, 'QuestionTwoEndpointOne']);
+    Route::get('/two-endpoint-two',  [QuestionController::class, 'QuestionTwoEndpointTwo']);
 });
