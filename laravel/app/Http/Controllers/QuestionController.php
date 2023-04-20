@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\QuestionOneRequest;
 
-class QuestionOneController extends Controller
+class QuestionController extends Controller
 {
-    public function a(QuestionOneRequest $request){
+    public function QuestionOne(QuestionOneRequest $request){
         $value = $request['value'];
 
         $arr = array();
